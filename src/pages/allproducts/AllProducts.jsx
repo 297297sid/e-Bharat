@@ -6,7 +6,7 @@ import myContext from '../../context/data/myContext'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart } from '../../redux/cartSlice'
 
-function Allproducts() {
+function AllProducts() {
   const context = useContext(myContext)
   const { mode, product ,searchkey, setSearchkey,filterType,setFilterType,
       filterPrice,setFilterPrice} = context
@@ -85,4 +85,4 @@ function Allproducts() {
   )
 }
 
-export default Allproducts
+export default AllProducts
