@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import MyContext from './myContext';
 
-import { fireDB, auth } from '../../firebase/firebaseConfig';
+import { fireDB, auth } from '../../firebase/FirebaseConfig';
 
 
 import { Timestamp, addDoc, collection, onSnapshot, orderBy, query } from 'firebase/firestore';

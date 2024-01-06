@@ -7,8 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { deleteFromCart } from '../../redux/cartSlice';
 import { addDoc } from 'firebase/firestore';
 import { collection } from 'firebase/firestore';
-
-import { fireDB } from '../../firebase/firebaseConfig';
+import { fireDB, auth } from '../../firebase/FirebaseConfig';
 function Cart() {
 
   const context = useContext(myContext);
